@@ -1,19 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>CryptoBox</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="assets/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zona Centro 2023</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="index.js"></script>
+
 </head>
 <body>
-  <h1>hola mundo</h1>
-  <footer class="bg-dark text-center text-white">
-    <div class="text-center p-3" style="background-color:#1a064b;">
-      © Copyright: Rama IEEE UN 2023
+    <div class="container mt-5">
+        <h1 class="text-center">Zona Centro 2023 - Cifrado por Sustitución</h1>
+        <div class="form-group mt-4">
+            <label for="inputTexto">Texto a Encriptar/Desencriptar:</label>
+            <input type="text" class="form-control" id="inputTexto">
+        </div>
+        <div class="form-group">
+            <label for="inputClave">Clave de Cifrado (1-25):</label>
+            <input type="number" class="form-control" id="inputClave" min="1" max="25" value="1">
+        </div>
+        <button class="btn btn-primary" onclick="encriptarTexto()">Encriptar</button>
+        <button class="btn btn-success" onclick="desencriptarTexto()">Desencriptar</button>
+        <div class="mt-3">
+            <p><strong>Texto Encriptado:</strong></p>
+            <p id="textoEncriptado"></p>
+        </div>
     </div>
-  </footer>
 </body>
+</html>
+
 
 </html>
