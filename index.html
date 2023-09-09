@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zona Centro 2023</title>
+    <title>Zona Centro 2023 </title>
+    <!-- Agrega la referencia al archivo CSS de Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="index.js"></script>
-
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center">Zona Centro 2023 - Cifrado por Sustitución</h1>
+        <h1 class="text-center">Zona Centro 2023 </h1>
         <div class="form-group mt-4">
             <label for="inputTexto">Texto a Encriptar/Desencriptar:</label>
             <input type="text" class="form-control" id="inputTexto">
         </div>
         <div class="form-group">
-            <label for="inputClave">Clave de Cifrado (1-25):</label>
-            <input type="number" class="form-control" id="inputClave" min="1" max="25" value="1">
+            <label for="inputClaveA">Clave A:</label>
+            <input type="number" class="form-control" id="inputClaveA" min="1" max="25" value="1">
+        </div>
+        <div class="form-group">
+            <label for="inputClaveB">Clave B:</label>
+            <input type="number" class="form-control" id="inputClaveB" min="0" max="25" value="0">
         </div>
         <button class="btn btn-primary" onclick="encriptarTexto()">Encriptar</button>
         <button class="btn btn-success" onclick="desencriptarTexto()">Desencriptar</button>
         <div class="mt-3">
-            <p><strong>Texto Encriptado:</strong></p>
+            <p><strong>Texto Encriptado/Desencriptado:</strong></p>
             <p id="textoEncriptado"></p>
         </div>
     </div>
+
+    <!-- Agrega la referencia al archivo JavaScript -->
+    <script src="index.js"></script>
 </body>
-</html>
-
-
 </html>
