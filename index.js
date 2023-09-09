@@ -66,5 +66,5 @@ function desencriptarTexto() {
         textoDesencriptado += String.fromCharCode(charCode);
     }
 
-    document.getElementById("textoEncriptado").value = textoDesencriptado;
+    document.getElementById("textoEncriptado").textContent = textoDesencriptado;
 }

@@ -35,7 +35,7 @@ h1 {
 
 .btn-primary:hover {
     background-color: #291f3f; /* Fondo morado oscuro al pasar el mouse */
-    color: #ffcc00; /* Texto amarillo al pasar el mouse */
+    color: #ffffff; /* Texto amarillo al pasar el mouse */
 }
 
 .btn-success {
