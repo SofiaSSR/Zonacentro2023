@@ -41,7 +41,7 @@ function encriptarTexto() {
 
 // Función para desencriptar el texto usando un cifrado afín
 function desencriptarTexto() {
-    const textoEncriptado = document.getElementById("textoEncriptado").textContent;
+    const textoEncriptado = document.getElementById("inputTexto").value;
     let claveA = parseInt(document.getElementById("inputClaveA").value);
     let claveB = parseInt(document.getElementById("inputClaveB").value);
     let textoDesencriptado = "";
@@ -66,5 +66,5 @@ function desencriptarTexto() {
         textoDesencriptado += String.fromCharCode(charCode);
     }
 
-    document.getElementById("inputTexto").value = textoDesencriptado;
+    document.getElementById("textoEncriptado").value = textoDesencriptado;
 }

@@ -1,0 +1,59 @@
+
+body {
+    background-color: #291f3f; /* Fondo morado oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #3b2d5e; /* Fondo morado medio */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #ffcc00; /* Texto amarillo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.form-group label {
+    color: #ffcc00; /* Texto amarillo */
+}
+
+.form-control {
+    background-color: #534279; /* Fondo morado claro */
+    color: #ffffff; /* Texto blanco */
+}
+
+.btn-primary {
+    background-color: #ffcc00; /* Fondo amarillo */
+    border-color: #ffcc00; /* Borde amarillo */
+    color: #291f3f; /* Texto morado oscuro */
+}
+
+.btn-primary:hover {
+    background-color: #291f3f; /* Fondo morado oscuro al pasar el mouse */
+    color: #ffcc00; /* Texto amarillo al pasar el mouse */
+}
+
+.btn-success {
+    background-color: #4caf50; /* Fondo verde */
+    border-color: #4caf50; /* Borde verde */
+    color: #ffffff; /* Texto blanco */
+}
+
+.btn-success:hover {
+    background-color: #357e3d; /* Fondo verde oscuro al pasar el mouse */
+    border-color: #357e3d; /* Borde verde oscuro al pasar el mouse */
+}
+
+#textoEncriptado {
+    background-color: #291f3f; /* Fondo morado oscuro */
+    color: #ffcc00; /* Texto amarillo */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgba(255, 204, 0, 0.7);
+}
