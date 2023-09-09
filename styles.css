@@ -1,3 +1,4 @@
+/* Estilos para Cifrado Afin - Zona Centro 2023 */
 
 body {
     background-color: #291f3f; /* Fondo morado oscuro */
@@ -13,12 +14,12 @@ body {
 }
 
 h1 {
-    color: #ffcc00; /* Texto amarillo */
+    color: #ffffff; /* Texto blanco */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .form-group label {
-    color: #ffcc00; /* Texto amarillo */
+    color: #ffffff; /* Texto blanco */
 }
 
 .form-control {
