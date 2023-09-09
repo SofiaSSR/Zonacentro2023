@@ -53,7 +53,6 @@ function desencriptarTexto() {
         return;
     }
 
-    // Calcular el inverso multiplicativo de claveA mod 26
     for (let i = 0; i < textoEncriptado.length; i++) {
         let charCode = textoEncriptado.charCodeAt(i);
 
